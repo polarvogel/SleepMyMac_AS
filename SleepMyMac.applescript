@@ -12,7 +12,7 @@ tell application "Finder"
 		
 		set theChoice to (item 1 of theChoice)
 		
-		display dialog theChoice & " at about " & (time string of (myNewDate)) & " o'clock. Press OK now!"
+		display dialog theChoice & " at about " & (time string of (myNewDate)) & ". Press OK now!"
 		do shell script ("sleep " & shutdownSeconds)
 		
 		if theChoice is "Hibernate" then
