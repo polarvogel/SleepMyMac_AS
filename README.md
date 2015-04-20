@@ -8,3 +8,6 @@ Great for watching Netflix or enjoying other media to fall asleep!
 
 ## Installation
 Download the .zip file from Github, open _SleepMyMac.applescript_ with AppleScript Editor (default) and export it as an executable program. Store it somewhere where you like (e.g. /Applications) and you can easily access it via Spotlight.
+
+### Why?
+Because I couldn't find a free, trustable and simple solution for this purpose.
