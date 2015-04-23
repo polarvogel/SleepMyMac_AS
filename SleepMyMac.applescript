@@ -15,7 +15,7 @@ tell application "Finder"
 		display dialog theChoice & " at about " & (time string of (myNewDate)) & ". Press OK now!"
 		do shell script ("sleep " & shutdownSeconds)
 		
-		if theChoice is "Hibernate" then
+		if theChoice is "Sleep" then
 			sleep
 		else if theChoice is "Shutdown" then
 			shut down
